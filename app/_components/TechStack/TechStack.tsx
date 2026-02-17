@@ -12,55 +12,54 @@ const technologies = [
     category: "Core Languages",
     icon: FaCode,
     items: [
-      { name: 'HTML5', icon: SiHtml5, level: 'Expert' },
-      { name: 'CSS3', icon: SiCss3, level: 'Expert' },
-      { name: 'JavaScript (ES6+)', icon: SiJavascript, level: 'Expert' },
-      { name: 'TypeScript', icon: SiTypescript, level: 'Experienced' },
+      { name: 'HTML5', icon: SiHtml5, level: 'Advanced' },
+      { name: 'CSS3', icon: SiCss3, level: 'Advanced' },
+      { name: 'JavaScript (ES6+)', icon: SiJavascript, level: 'Advanced' },
+      { name: 'TypeScript', icon: SiTypescript, level: 'Intermediate' },
     ]
   },
   {
     category: "Frontend Frameworks",
     icon: SiReact,
     items: [
-      { name: 'React 19', icon: SiReact, level: 'Experienced' },
-      { name: 'Next.js', icon: SiNextdotjs, level: 'Experienced' },
-      { name: 'REST APIs', icon: TbApi, level: 'Expert' },
+      { name: 'React 19', icon: SiReact, level: 'Advanced' },
+      { name: 'Next.js', icon: SiNextdotjs, level: 'Intermediate' },
+      { name: 'REST APIs', icon: TbApi, level: 'Advanced' },
     ]
   },
   {
     category: "State Management",
     icon: SiRedux,
     items: [
-      { name: 'Redux Toolkit', icon: SiRedux, level: 'Experienced' },
-      { name: 'TanStack Query', icon: SiReactquery, level: 'Experienced' },
-      { name: 'Context API', icon: SiReact, level: 'Expert' },
+      { name: 'Redux Toolkit', icon: SiRedux, level: 'Intermediate' },
+      { name: 'TanStack Query', icon: SiReactquery, level: 'Advanced' },
+      { name: 'Context API', icon: SiReact, level: 'Advanced' },
     ]
   },
   {
     category: "Form & Validation",
     icon: SiReacthookform,
     items: [
-      { name: 'React Hook Form', icon: SiReacthookform, level: 'Experienced' },
-      { name: 'Zod', icon: FaCode, level: 'Experienced' },
-      { name: 'React Router', icon: SiReactrouter, level: 'Expert' },
+      { name: 'React Hook Form', icon: SiReacthookform, level: 'Advanced' },
+      { name: 'Zod', icon: FaCode, level: 'Intermediate' },
+      { name: 'React Router', icon: SiReactrouter, level: 'Advanced' },
     ]
   },
   {
     category: "Styling & UI",
     icon: FaPalette,
     items: [
-      { name: 'Tailwind CSS', icon: SiTailwindcss, level: 'Expert' },
-      { name: 'Bootstrap', icon: SiBootstrap, level: 'Expert' },
-      { name: 'Responsive Design', icon: FaPalette, level: 'Expert' },
-      { name: 'Framer Motion', icon: FaCode, level: 'Experienced' },
+      { name: 'Tailwind CSS', icon: SiTailwindcss, level: 'Advanced' },
+      { name: 'Bootstrap', icon: SiBootstrap, level: 'Advanced' },
+      { name: 'Responsive Design', icon: FaPalette, level: 'Advanced' },
     ]
   },
   {
     category: "Development Tools",
     icon: FaWrench,
     items: [
-      { name: 'Git & GitHub', icon: SiGit, level: 'Expert' },
-      { name: 'npm', icon: SiNpm, level: 'Expert' },
+      { name: 'Git & GitHub', icon: SiGit, level: 'Advanced' },
+      { name: 'npm', icon: SiNpm, level: 'Advanced' },
       { name: 'Vite', icon: SiVite, level: 'Experienced' },
       { name: 'ESLint', icon: SiEslint, level: 'Experienced' },
       { name: 'Vercel', icon: SiVercel, level: 'Experienced' },
@@ -70,8 +69,8 @@ const technologies = [
     category: "APIs & Libraries",
     icon: FaPlug,
     items: [
-      { name: 'Axios', icon: SiAxios, level: 'Expert' },
-      { name: 'React Icons', icon: FaCode, level: 'Expert' },
+      { name: 'Axios', icon: SiAxios, level: 'Advanced' },
+      { name: 'React Icons', icon: FaCode, level: 'Advanced' },
       { name: 'Node.js', icon: SiNodedotjs, level: 'Experienced' },
       { name: 'MongoDB', icon: SiMongodb, level: 'Experienced' },
     ]
