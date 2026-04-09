@@ -17,6 +17,20 @@ export const projects = [
   },
   {
     id: 2,
+    name: "PostIt",
+    description: "A full-featured social media platform where users can create accounts, publish posts, comment on content, and customize their profiles. Built with React and integrated with REST APIs for real-time data handling.",
+    imageUrl: "/postit.png",
+    projectUrl: "https://github.com/dohahehe/PostIt",
+    technologies: [
+      "React", 
+      "Tailwind CSS", 
+      "React Query", 
+      "REST API", 
+      "JWT"
+    ]
+  },
+  {
+    id: 3,
     name: "Yalla Eat",
     description: "An online platform similar to Talabat, facilitating food and product orders from various stores and restaurants.",
     imageUrl: "/yallaEat.jpg",
@@ -24,7 +38,7 @@ export const projects = [
     technologies: ["React", "Node.js", "MongoDB", "JavaScript"]
   },
   {
-    id: 3,
+    id: 4,
     name: "Game Hub",
     description: "A modern, responsive web application for discovering and exploring free-to-play games across various platforms.",
     imageUrl: "/game-hub.png",
@@ -32,7 +46,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"]
   },
   {
-    id: 4,
+    id: 5,
     name: "Mealify",
     description: "A modern and responsive project focused on mastering Flexbox layouts and responsive design principles.",
     imageUrl: "/mealify.png",
@@ -40,7 +54,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "Responsive Design"]
   },
   {
-    id: 5,
+    id: 6,
     name: "Weather App",
     description: "A sleek, responsive weather application that provides real-time weather conditions and forecasts.",
     imageUrl: "/weather-app.png",
@@ -48,7 +62,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Weather API"]
   },
   {
-    id: 6,
+    id: 7,
     name: "Bookmarker",
     description: "A sleek, modern bookmark manager with theme support and smooth animations.",
     imageUrl: "/bookmarker.png",
@@ -56,7 +70,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"]
   },
   {
-    id: 7,
+    id: 8,
     name: "Quotes Generator",
     description: "A beautiful, responsive web application that displays random inspirational quotes.",
     imageUrl: "/quote-g.png",
